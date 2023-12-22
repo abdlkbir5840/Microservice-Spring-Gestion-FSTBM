@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: note-service
+  config:
+    import: optional:configserver:http://localhost:8888
+
+rsa:
+  public-key: classpath:Certif/pub.pem
